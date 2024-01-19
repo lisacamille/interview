@@ -1,0 +1,122 @@
+body {
+    height: 2000px;
+    background-image: radial-gradient( grey, blue, pink);
+    }
+    
+    #ueberschrift{
+    top: 30px;
+    position: sticky;
+    text-align:justify;
+    color: yellow;
+    text-shadow: 200px 100px 5px pink,-200px -50px 5px grey, 5px 5px 25px white;
+    padding:60px;
+    font-size: 30px ;
+    font-family: sans-serif;
+    margin:30px 20px 40px 40px;
+    }
+
+    .container {
+    position: absolute;
+    }
+    
+    .bottom-left {
+    position: absolute;
+    bottom: 600px;
+    left: 3px;
+    filter:drop-shadow(10px -10px 5px  pink);
+    opacity: 20%;
+    }
+        .bottom-left:hover {
+        opacity: 90%;
+        }
+
+    .top-left {
+    position: absolute;
+    top: 700px;
+    left: 16px;
+    filter:drop-shadow(10px -10px 5px  pink);
+    opacity: 20%;
+    }
+        .top-left:hover {
+        opacity: 90%;
+        }
+
+    .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    filter:drop-shadow(10px -10px 5px  pink);
+    opacity: 20%;
+    }
+        .top-right:hover {
+        opacity: 90%;
+        }
+
+    .bottom-right {
+    position: absolute;
+    bottom: 2100px;
+    right: 16px;
+    filter:drop-shadow(10px -10px 5px  pink);
+    opacity: 20%;
+    }
+        .bottom-right:hover {
+        opacity: 90%;
+        }
+
+    .centered {
+    position: absolute;
+    top: 2000px;
+    left: 80px;
+    transform: translate(-50%, -50%);
+    filter:drop-shadow(10px -10px 5px  pink);
+    opacity: 20%;
+    }
+        .centered:hover {
+        opacity: 90%;
+        }
+    
+    .bottom-rightt {
+     position: absolute;
+    bottom: 100px;
+    right: 16px;   
+    filter:drop-shadow(10px -10px 5px  pink);
+    opacity: 20%;
+    }
+        .bottom-rightt:hover {
+        opacity: 90%;
+        }
+
+    #layout{
+    margin:30px 350px 100px 350px;
+    padding: 0px;
+    }
+    
+    .name {
+        text-align: justify;
+        color: pink;
+        font-size: 20px  ;
+        font-family: sans-serif;
+        text-shadow: 0px 0px 2px pink;
+        
+        }
+    
+    .antwort {
+        text-align:justify;
+        color: darkgray;
+        font-size: 20px ;
+        font-family: sans-serif;
+        
+        }
+    .fussnote {
+        text-align:justify;
+        color: pink;
+        font-size: 20px ;
+        font-family: sans-serif;
+        font-style: italic;
+        margin:40px 0px 0px 0px;
+        padding: 10px; 
+        
+    }
+
+}
+
