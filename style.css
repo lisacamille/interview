@@ -96,8 +96,7 @@ body {
         color: pink;
         font-size: 20px  ;
         font-family: sans-serif;
-        text-shadow: 0px 0px 2px pink;
-        
+        text-shadow: 0px 0px 3px grey;
         }
     
     .antwort {
@@ -105,8 +104,9 @@ body {
         color: darkgray;
         font-size: 20px ;
         font-family: sans-serif;
-        
+        text-shadow: 0px 0px 3px pink;
         }
+
     .fussnote {
         text-align:justify;
         color: pink;
@@ -114,9 +114,7 @@ body {
         font-family: sans-serif;
         font-style: italic;
         margin:40px 0px 0px 0px;
-        padding: 10px; 
-        
-    }
-
+        padding: 10px;  
+        }
 }
 
